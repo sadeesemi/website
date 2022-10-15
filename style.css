@@ -8,7 +8,7 @@
 
 
 .main{
-	height: 150vh;
+	height: 200vh;
 	width: 100%;
 	background-image:url("images/page2.jpg");
 	background-repeat: no-repeat;
@@ -132,13 +132,11 @@ p{
     opacity: 1;
     position: relative;
     margin-top:20%;
-	top: -120px;
+	top: -140px;
 	
 	
-    
     
 
-    
 		
 
 }
@@ -147,7 +145,7 @@ p{
 .content1{
 
     position: 	relative;
-    top: 550px;
+    top: 350px;
     margin-left:20% ;
     margin-top: -70%;
 
@@ -273,7 +271,7 @@ table,tr,td{
 
 }
 .part2{
-	height: 150vh;
+	height: 200vh;
 	width: 100%;
 	background-image: url(images/img2.jpg);
 	background-repeat: no-repeat;
