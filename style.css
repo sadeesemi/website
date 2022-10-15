@@ -5,14 +5,12 @@
 }
 
 
-
-
 .main{
 	height: 200vh;
 	width: 100%;
-	background-image:url("images/page2.jpg");
+	background-image:url("images/hack.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:cover;
 	background-position:center;
 
 }
@@ -50,16 +48,27 @@ nav ul li a:hover{
 	font-size: 35px;
 	letter-spacing: 1px;
 	cursor: pointer;
-}
-span{
-	color: red;
+	letter-spacing: 3px;
+	margin-right: 250px;
 
+}
+
+span{
+	color: rgb(214, 18, 18);
+	font-family:'Times New Roman', Times, serif;
+
+	}
+.auto-type{
+	color:red ;
+}
+h2{
+font-family:cursive;
 	}
 
 .content{
 	position: relative;
 	left: 70px;
-	background-color:rgb(190, 60, 42);
+	background-color: rgb(31, 28, 27);
 	border-radius:60px 60px;
 	width: 500px;
 	height: 250px;
@@ -67,36 +76,38 @@ span{
    margin: 20px;
    top: 400px;
    background-clip: border-box;
-   box-shadow: 0px 0px 15px white;
-
+   box-shadow: 0px 0px 15px rgb(230, 229, 235);
+   color:white;
 
   
-  
+}
+.myname{
+	color: #24a585;
+	font-size: larger;
 }
 #Name{
 	font-family:DejaVu Sans Mono, monospace;
-	color: white;
+
 }
 h1{
 	font-family: Bookman, URW Bookman L, serif;
-	color: black;
+	
 }
 p{
 	font-family: Arial Narrow, sans-serif;
-	color: black;
 	font-size: 20px;
 }
 #line1{
-	    background-color: black;
+	    background-color: rgb(255, 255, 255);
         width:50% ;
         border: none; 
         height: 2px;  
 }
 
 .button1{
-	background-color: transparent;
-    border-color: rgb(22, 103, 223);
-    color: black;
+	background-color:#cf4c24;
+    border-color:#392a7a ;
+    color: white;
     padding: 16px 32px;
     text-align: center;
     display: inline-block;
@@ -110,13 +121,14 @@ p{
 
 }
 .button1:hover{
-	background-color: #5f5877;
+	background-color:rgb(22, 103, 223); 
+	color: rgb(141, 204, 178);
 
 }
 .part1{
 	height: 150vh;
 	width: 100%;
-	background-image: url("images/img.jpg");
+	background-image: url("images/img3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:center;
@@ -134,9 +146,6 @@ p{
     margin-top:20%;
 	top: -140px;
 	
-	
-    
-
 		
 
 }
@@ -154,7 +163,7 @@ p{
 
 
 #Topic{
-	color: rgb(5, 4, 4);
+	color: rgb(241, 240, 240);
 	
 	font-family: Gill Sans;
 	font-size: 30px;
@@ -164,7 +173,7 @@ p{
 	
 }
 table,tr,td{
-	color: black;
+	color: rgb(255, 251, 251);
 	margin-left: 250px;
 	font-size: 20px;
 	margin-top: 0;
@@ -174,7 +183,7 @@ table,tr,td{
 
 }
 #Topic1{
-	color: rgb(7, 5, 5);
+	color: rgb(255, 255, 255);
 	font-family: Gill Sans;
 	font-size: 30px;
 	margin-left: 40px;
@@ -212,15 +221,15 @@ table,tr,td{
 
 }
 .button2:hover{
-	background-color:rgb(22, 103, 223); ;
+	background-color:rgb(22, 103, 223); 
 
 }
 .button3:hover{
-	background-color: rgb(22, 103, 223);;
+	background-color: rgb(22, 103, 223);
 
 }
 #line2{
-	  background-color: rgb(0, 0, 0);
+	  background-color: rgb(252, 252, 252);
       width:25% ;
       border: none; 
       height: 3px;
@@ -265,7 +274,7 @@ table,tr,td{
 #skill1{
 	padding-left: 150px;
 	font-size: 20px;
-	color: black;
+	color: rgb(255, 255, 255);
 	word-spacing: 350px;
 	font-weight: bold;
 
@@ -273,7 +282,7 @@ table,tr,td{
 .part2{
 	height: 200vh;
 	width: 100%;
-	background-image: url(images/img2.jpg);
+	background-image: url(images/img.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:center;
@@ -332,7 +341,7 @@ h3{
 
 }
 #line4{
-	background-color: rgb(5, 5, 5);
+	background-color: rgb(255, 250, 250);
 	width:25% ;
 	border: none; 
 	height: 3px;
@@ -340,4 +349,7 @@ h3{
 	margin-left: 12%;
    
 
+}
+.skills:hover{
+	color: white;
 }

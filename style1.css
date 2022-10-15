@@ -27,7 +27,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #1962b6;
+  background-color: #2fa07a;
   padding: 20px;
 }
 .page1{
@@ -38,7 +38,7 @@ input[type=submit]:hover {
     top: 0;
     padding-top:20px;
     left: 0;
-    background-color: rgb(113, 161, 201);
+    background-color: rgb(11, 10, 77);
 
 
     
@@ -54,11 +54,18 @@ input[type=submit]:hover {
     top: 0;
     padding-top: 20px;
     right: 0;
-	background-color:#cf4c24;
+	background-color:#5e8079;
     
 }
 table,tr,td{
     margin-left:50px;
     border: 1px solid black;
     padding: 3px;
+}
 
+h3{
+  color: white;
+}
+h1{
+  margin-left:10px;
+}
