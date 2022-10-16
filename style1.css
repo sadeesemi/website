@@ -21,8 +21,8 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover{
-  background-color:#ca6130;
+input[type=submit]:hover {
+  background-color: #ca6130;
 }
 
 .container {

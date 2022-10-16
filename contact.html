@@ -6,12 +6,57 @@
 	<title>contact page</title>
 </head>
 <body>
+
+<script type="module">
+  
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+  import { getDatabase,set,ref } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-database.js";
+  
+  const firebaseConfig = {
+    apiKey: "AIzaSyDbeTlsMq9k1VWoaQ3bsbxhZDsh5_jJfik",
+    authDomain: "personal-web-3683f.firebaseapp.com",
+    databaseURL: "https://personal-web-3683f-default-rtdb.firebaseio.com",
+    projectId: "personal-web-3683f",
+    storageBucket: "personal-web-3683f.appspot.com",
+    messagingSenderId: "716225016305",
+    appId: "1:716225016305:web:0afd3c39937a1a7fb19450"
+  };
+
+
+  const app = initializeApp(firebaseConfig);
+  
+  const db = getDatabase(app);
+  
+  document.getElementById("userform").addEventListener("submit",function(e){
+    e.preventDefault();
+    let id =document.getElementById("id").value;
+    let fname =document.getElementById("fname").value;
+    let lname =document.getElementById("lname").value;
+    let country =document.getElementById("country").value;
+    let subject =document.getElementById("subject").value;
+    
+  
+  set(ref(db, 'users/' + id), {
+    fname :fname,
+    username: lname,
+    country: country,
+    subject:subject,
+    
+  });
+  
+});
+writeUserData();
+ 
+
+</script>
     <div class="page1">
 
     <h3>Get in touch</h3>
     
     <div class="container">
-      <form action="/action_page.php">
+      <form method="post" id="userform" action="/action_page.php">
+        <label for="id">ID</label>
+        <input type="text" id="id" name="id" placeholder="id">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
     
@@ -30,7 +75,7 @@
         </select>
     
         <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
     
         <input type="submit" value="Submit">
       </form>
